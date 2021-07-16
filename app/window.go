@@ -9,16 +9,16 @@ import (
 	"image/color"
 	"time"
 
-	"gioui.org/io/event"
-	"gioui.org/io/pointer"
-	"gioui.org/io/profile"
-	"gioui.org/io/router"
-	"gioui.org/io/system"
-	"gioui.org/op"
-	"gioui.org/unit"
+	"github.com/audrenbdb/gio/io/event"
+	"github.com/audrenbdb/gio/io/pointer"
+	"github.com/audrenbdb/gio/io/profile"
+	"github.com/audrenbdb/gio/io/router"
+	"github.com/audrenbdb/gio/io/system"
+	"github.com/audrenbdb/gio/op"
+	"github.com/audrenbdb/gio/unit"
 
-	_ "gioui.org/app/internal/log"
-	"gioui.org/app/internal/wm"
+	_ "github.com/audrenbdb/gio/app/internal/log"
+	"github.com/audrenbdb/gio/app/internal/wm"
 )
 
 // WindowOption configures a wm.

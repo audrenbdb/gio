@@ -14,10 +14,10 @@ import (
 	"golang.org/x/image/font/sfnt"
 	"golang.org/x/image/math/fixed"
 
-	"gioui.org/f32"
-	"gioui.org/op"
-	"gioui.org/op/clip"
-	"gioui.org/text"
+	"github.com/audrenbdb/gio/f32"
+	"github.com/audrenbdb/gio/op"
+	"github.com/audrenbdb/gio/op/clip"
+	"github.com/audrenbdb/gio/text"
 )
 
 // Font implements text.Face. Its methods are safe to use

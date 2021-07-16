@@ -70,8 +70,8 @@ import (
 	"math"
 	"time"
 
-	"gioui.org/f32"
-	"gioui.org/internal/opconst"
+	"github.com/audrenbdb/gio/f32"
+	"github.com/audrenbdb/gio/internal/opconst"
 )
 
 // Ops holds a list of operations. Operations are stored in

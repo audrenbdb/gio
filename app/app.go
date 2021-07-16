@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"gioui.org/app/internal/wm"
+	"github.com/audrenbdb/gio/app/internal/wm"
 )
 
 // ViewEvent carries the platform specific window handles for

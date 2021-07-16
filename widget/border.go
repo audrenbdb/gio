@@ -5,11 +5,11 @@ package widget
 import (
 	"image/color"
 
-	"gioui.org/f32"
-	"gioui.org/layout"
-	"gioui.org/op/clip"
-	"gioui.org/op/paint"
-	"gioui.org/unit"
+	"github.com/audrenbdb/gio/f32"
+	"github.com/audrenbdb/gio/layout"
+	"github.com/audrenbdb/gio/op/clip"
+	"github.com/audrenbdb/gio/op/paint"
+	"github.com/audrenbdb/gio/unit"
 )
 
 // Border lays out a widget and draws a border inside it.

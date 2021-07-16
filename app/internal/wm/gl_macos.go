@@ -7,8 +7,8 @@ package wm
 import (
 	"errors"
 
-	"gioui.org/gpu"
-	"gioui.org/internal/gl"
+	"github.com/audrenbdb/gio/gpu"
+	"github.com/audrenbdb/gio/internal/gl"
 )
 
 /*

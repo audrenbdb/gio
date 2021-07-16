@@ -5,10 +5,10 @@ package layout
 import (
 	"image"
 
-	"gioui.org/gesture"
-	"gioui.org/io/pointer"
-	"gioui.org/op"
-	"gioui.org/op/clip"
+	"github.com/audrenbdb/gio/gesture"
+	"github.com/audrenbdb/gio/io/pointer"
+	"github.com/audrenbdb/gio/op"
+	"github.com/audrenbdb/gio/op/clip"
 )
 
 type scrollChild struct {

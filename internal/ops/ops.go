@@ -6,10 +6,10 @@ import (
 	"encoding/binary"
 	"math"
 
-	"gioui.org/f32"
-	"gioui.org/internal/byteslice"
-	"gioui.org/internal/opconst"
-	"gioui.org/internal/scene"
+	"github.com/audrenbdb/gio/f32"
+	"github.com/audrenbdb/gio/internal/byteslice"
+	"github.com/audrenbdb/gio/internal/opconst"
+	"github.com/audrenbdb/gio/internal/scene"
 )
 
 func DecodeCommand(d []byte) scene.Command {

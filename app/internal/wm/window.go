@@ -8,13 +8,13 @@ import (
 	"errors"
 	"image/color"
 
-	"gioui.org/io/key"
+	"github.com/audrenbdb/gio/io/key"
 
-	"gioui.org/gpu"
-	"gioui.org/io/event"
-	"gioui.org/io/pointer"
-	"gioui.org/io/system"
-	"gioui.org/unit"
+	"github.com/audrenbdb/gio/gpu"
+	"github.com/audrenbdb/gio/io/event"
+	"github.com/audrenbdb/gio/io/pointer"
+	"github.com/audrenbdb/gio/io/system"
+	"github.com/audrenbdb/gio/unit"
 )
 
 type Size struct {

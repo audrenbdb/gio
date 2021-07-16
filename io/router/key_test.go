@@ -6,9 +6,9 @@ import (
 	"reflect"
 	"testing"
 
-	"gioui.org/io/event"
-	"gioui.org/io/key"
-	"gioui.org/op"
+	"github.com/audrenbdb/gio/io/event"
+	"github.com/audrenbdb/gio/io/key"
+	"github.com/audrenbdb/gio/op"
 )
 
 func TestKeyWakeup(t *testing.T) {

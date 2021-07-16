@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"image"
 
-	"gioui.org/layout"
-	"gioui.org/op"
-	"gioui.org/unit"
+	"github.com/audrenbdb/gio/layout"
+	"github.com/audrenbdb/gio/op"
+	"github.com/audrenbdb/gio/unit"
 )
 
 func ExampleInset() {

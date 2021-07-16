@@ -7,11 +7,11 @@ import (
 	"image/color"
 	"testing"
 
-	"gioui.org/f32"
-	"gioui.org/internal/f32color"
-	"gioui.org/op"
-	"gioui.org/op/clip"
-	"gioui.org/op/paint"
+	"github.com/audrenbdb/gio/f32"
+	"github.com/audrenbdb/gio/internal/f32color"
+	"github.com/audrenbdb/gio/op"
+	"github.com/audrenbdb/gio/op/clip"
+	"github.com/audrenbdb/gio/op/paint"
 )
 
 func TestHeadless(t *testing.T) {

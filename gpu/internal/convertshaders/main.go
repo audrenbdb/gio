@@ -18,7 +18,7 @@ import (
 	"sync"
 	"text/template"
 
-	"gioui.org/gpu/internal/driver"
+	"github.com/audrenbdb/gio/gpu/internal/driver"
 )
 
 func main() {

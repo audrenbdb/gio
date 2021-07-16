@@ -3,7 +3,7 @@
 package app
 
 import (
-	"gioui.org/app/internal/wm"
+	"github.com/audrenbdb/gio/app/internal/wm"
 )
 
 // JavaVM returns the global JNI JavaVM.

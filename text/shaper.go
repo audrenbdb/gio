@@ -8,7 +8,7 @@ import (
 
 	"golang.org/x/image/math/fixed"
 
-	"gioui.org/op"
+	"github.com/audrenbdb/gio/op"
 )
 
 // Shaper implements layout and shaping of text.

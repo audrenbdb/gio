@@ -7,12 +7,12 @@ import (
 	"image"
 	"unicode/utf8"
 
-	"gioui.org/layout"
-	"gioui.org/op"
-	"gioui.org/op/clip"
-	"gioui.org/op/paint"
-	"gioui.org/text"
-	"gioui.org/unit"
+	"github.com/audrenbdb/gio/layout"
+	"github.com/audrenbdb/gio/op"
+	"github.com/audrenbdb/gio/op/clip"
+	"github.com/audrenbdb/gio/op/paint"
+	"github.com/audrenbdb/gio/text"
+	"github.com/audrenbdb/gio/unit"
 
 	"golang.org/x/image/math/fixed"
 )

@@ -1,7 +1,7 @@
 package widget
 
 import (
-	"gioui.org/layout"
+	"github.com/audrenbdb/gio/layout"
 )
 
 type Bool struct {

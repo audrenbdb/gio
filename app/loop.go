@@ -7,9 +7,9 @@ import (
 	"image/color"
 	"runtime"
 
-	"gioui.org/app/internal/wm"
-	"gioui.org/gpu"
-	"gioui.org/op"
+	"github.com/audrenbdb/gio/app/internal/wm"
+	"github.com/audrenbdb/gio/gpu"
+	"github.com/audrenbdb/gio/op"
 )
 
 type renderLoop struct {

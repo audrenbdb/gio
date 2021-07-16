@@ -5,9 +5,9 @@ package ops
 import (
 	"encoding/binary"
 
-	"gioui.org/f32"
-	"gioui.org/internal/opconst"
-	"gioui.org/op"
+	"github.com/audrenbdb/gio/f32"
+	"github.com/audrenbdb/gio/internal/opconst"
+	"github.com/audrenbdb/gio/op"
 )
 
 // Reader parses an ops list.

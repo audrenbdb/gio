@@ -5,8 +5,8 @@ package clip
 import (
 	"testing"
 
-	"gioui.org/f32"
-	"gioui.org/op"
+	"github.com/audrenbdb/gio/f32"
+	"github.com/audrenbdb/gio/op"
 )
 
 func TestOpenPathOutlinePanic(t *testing.T) {

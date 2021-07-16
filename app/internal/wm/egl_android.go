@@ -11,7 +11,7 @@ import "C"
 import (
 	"unsafe"
 
-	"gioui.org/internal/egl"
+	"github.com/audrenbdb/gio/internal/egl"
 )
 
 type context struct {

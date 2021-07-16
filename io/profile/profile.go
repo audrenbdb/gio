@@ -5,9 +5,9 @@
 package profile
 
 import (
-	"gioui.org/internal/opconst"
-	"gioui.org/io/event"
-	"gioui.org/op"
+	"github.com/audrenbdb/gio/internal/opconst"
+	"github.com/audrenbdb/gio/io/event"
+	"github.com/audrenbdb/gio/op"
 )
 
 // Op registers a handler for receiving

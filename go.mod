@@ -1,4 +1,4 @@
-module gioui.org
+module github.com/audrenbdb/gio
 
 go 1.14
 

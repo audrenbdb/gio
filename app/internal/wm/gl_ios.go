@@ -21,8 +21,8 @@ import (
 	"errors"
 	"fmt"
 
-	"gioui.org/gpu"
-	"gioui.org/internal/gl"
+	"github.com/audrenbdb/gio/gpu"
+	"github.com/audrenbdb/gio/internal/gl"
 )
 
 type context struct {

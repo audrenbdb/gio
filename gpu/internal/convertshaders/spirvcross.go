@@ -10,7 +10,7 @@ import (
 	"sort"
 	"strings"
 
-	"gioui.org/gpu/internal/driver"
+	"github.com/audrenbdb/gio/gpu/internal/driver"
 )
 
 // Metadata contains reflection data about a shader.

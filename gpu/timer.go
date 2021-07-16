@@ -5,7 +5,7 @@ package gpu
 import (
 	"time"
 
-	"gioui.org/gpu/internal/driver"
+	"github.com/audrenbdb/gio/gpu/internal/driver"
 )
 
 type timers struct {

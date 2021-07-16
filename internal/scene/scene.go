@@ -10,7 +10,7 @@ import (
 	"math"
 	"unsafe"
 
-	"gioui.org/f32"
+	"github.com/audrenbdb/gio/f32"
 )
 
 type Op uint32

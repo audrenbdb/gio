@@ -5,7 +5,7 @@ package wm
 import (
 	"golang.org/x/sys/windows"
 
-	"gioui.org/internal/egl"
+	"github.com/audrenbdb/gio/internal/egl"
 )
 
 type glContext struct {

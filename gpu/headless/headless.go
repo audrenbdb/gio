@@ -9,9 +9,9 @@ import (
 	"image/color"
 	"runtime"
 
-	"gioui.org/gpu"
-	"gioui.org/gpu/internal/driver"
-	"gioui.org/op"
+	"github.com/audrenbdb/gio/gpu"
+	"github.com/audrenbdb/gio/gpu/internal/driver"
+	"github.com/audrenbdb/gio/op"
 )
 
 // Window is a headless window.

@@ -29,9 +29,9 @@ import (
 	"encoding/binary"
 	"math"
 
-	"gioui.org/f32"
-	"gioui.org/internal/ops"
-	"gioui.org/internal/scene"
+	"github.com/audrenbdb/gio/f32"
+	"github.com/audrenbdb/gio/internal/ops"
+	"github.com/audrenbdb/gio/internal/scene"
 )
 
 // The following are copies of types from op/clip to avoid a circular import of

@@ -7,16 +7,16 @@ import (
 	"image/color"
 	"math"
 
-	"gioui.org/f32"
-	"gioui.org/internal/f32color"
-	"gioui.org/io/pointer"
-	"gioui.org/layout"
-	"gioui.org/op"
-	"gioui.org/op/clip"
-	"gioui.org/op/paint"
-	"gioui.org/text"
-	"gioui.org/unit"
-	"gioui.org/widget"
+	"github.com/audrenbdb/gio/f32"
+	"github.com/audrenbdb/gio/internal/f32color"
+	"github.com/audrenbdb/gio/io/pointer"
+	"github.com/audrenbdb/gio/layout"
+	"github.com/audrenbdb/gio/op"
+	"github.com/audrenbdb/gio/op/clip"
+	"github.com/audrenbdb/gio/op/paint"
+	"github.com/audrenbdb/gio/text"
+	"github.com/audrenbdb/gio/unit"
+	"github.com/audrenbdb/gio/widget"
 )
 
 type ButtonStyle struct {

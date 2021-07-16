@@ -11,10 +11,10 @@ import (
 	"math"
 	"unsafe"
 
-	"gioui.org/f32"
-	"gioui.org/gpu/internal/driver"
-	"gioui.org/internal/byteslice"
-	"gioui.org/internal/f32color"
+	"github.com/audrenbdb/gio/f32"
+	"github.com/audrenbdb/gio/gpu/internal/driver"
+	"github.com/audrenbdb/gio/internal/byteslice"
+	"github.com/audrenbdb/gio/internal/f32color"
 )
 
 type pather struct {

@@ -10,7 +10,7 @@ import (
 	"runtime"
 	"strings"
 
-	"gioui.org/gpu"
+	"github.com/audrenbdb/gio/gpu"
 )
 
 type Context struct {

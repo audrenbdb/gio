@@ -14,8 +14,8 @@ import (
 	"unicode/utf8"
 	"unsafe"
 
-	"gioui.org/io/event"
-	"gioui.org/io/key"
+	"github.com/audrenbdb/gio/io/event"
+	"github.com/audrenbdb/gio/io/key"
 )
 
 /*

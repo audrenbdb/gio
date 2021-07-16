@@ -7,11 +7,11 @@ import (
 	"image/color"
 	"math"
 
-	"gioui.org/f32"
-	"gioui.org/layout"
-	"gioui.org/op"
-	"gioui.org/op/paint"
-	"gioui.org/unit"
+	"github.com/audrenbdb/gio/f32"
+	"github.com/audrenbdb/gio/layout"
+	"github.com/audrenbdb/gio/op"
+	"github.com/audrenbdb/gio/op/paint"
+	"github.com/audrenbdb/gio/unit"
 )
 
 type ProgressCircleStyle struct {

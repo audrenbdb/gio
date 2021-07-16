@@ -3,8 +3,8 @@
 package headless
 
 import (
-	"gioui.org/gpu"
-	_ "gioui.org/internal/cocoainit"
+	"github.com/audrenbdb/gio/gpu"
+	_ "github.com/audrenbdb/gio/internal/cocoainit"
 )
 
 /*

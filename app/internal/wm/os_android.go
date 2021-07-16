@@ -119,14 +119,14 @@ import (
 	"unicode/utf16"
 	"unsafe"
 
-	"gioui.org/internal/f32color"
+	"github.com/audrenbdb/gio/internal/f32color"
 
-	"gioui.org/f32"
-	"gioui.org/io/clipboard"
-	"gioui.org/io/key"
-	"gioui.org/io/pointer"
-	"gioui.org/io/system"
-	"gioui.org/unit"
+	"github.com/audrenbdb/gio/f32"
+	"github.com/audrenbdb/gio/io/clipboard"
+	"github.com/audrenbdb/gio/io/key"
+	"github.com/audrenbdb/gio/io/pointer"
+	"github.com/audrenbdb/gio/io/system"
+	"github.com/audrenbdb/gio/unit"
 )
 
 type window struct {
