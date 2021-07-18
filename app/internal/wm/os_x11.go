@@ -701,6 +701,8 @@ func newX11Window(gioWin Callbacks, opts *Options) error {
 	return nil
 }
 
+
+
 func (w *x11Window) center(height, width int) {
 	screenNumber := C.XDefaultScreen(w.x)
 	screen := C.XScreenOfDisplay(w.x, screenNumber)
