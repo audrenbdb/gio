@@ -116,6 +116,7 @@ func (w *x11Window) WriteClipboard(s string) {
 
 func (w *x11Window) Option(opts *Options) {
 	var shints C.XSizeHints
+
 	if o := opts.MinSize; o != nil {
 		shints.min_width = C.int(w.cfg.Px(o.Width))
 		shints.min_height = C.int(w.cfg.Px(o.Height))
@@ -219,6 +220,7 @@ func (w *x11Window) SetWindowMode(mode WindowMode) {
 		C.SubstructureNotifyMask|C.SubstructureRedirectMask,
 		&xev,
 	)
+
 }
 
 func (w *x11Window) ShowTextInput(show bool) {}
@@ -639,7 +641,6 @@ func newX11Window(gioWin Callbacks, opts *Options) error {
 		0, 0, C.uint(width), C.uint(height),
 		0, C.CopyFromParent, C.InputOutput, nil,
 		C.CWEventMask|C.CWBackPixmap|C.CWOverrideRedirect, &swa)
-
 	w := &x11Window{
 		w: gioWin, x: dpy, xw: win,
 		width:        width,
@@ -687,6 +688,10 @@ func newX11Window(gioWin Callbacks, opts *Options) error {
 	// make the window visible on the screen
 	C.XMapWindow(dpy, win)
 
+	if opts.Centered {
+		w.center(height, width)
+	}
+
 	go func() {
 		w.w.SetDriver(w)
 		w.setStage(system.StageRunning)
@@ -694,6 +699,17 @@ func newX11Window(gioWin Callbacks, opts *Options) error {
 		w.destroy()
 	}()
 	return nil
+}
+
+func (w *x11Window) center(height, width int) {
+	screenNumber := C.XDefaultScreen(w.x)
+	screen := C.XScreenOfDisplay(w.x, screenNumber)
+	screenWidth := C.XWidthOfScreen(screen)
+	screenHeight := C.XHeightOfScreen(screen)
+
+	x := screenWidth / 2 - C.int(width) / 2
+	y := screenHeight / 2 - C.int(height) / 2
+	C.XMoveWindow(w.x, w.xw, x, y)
 }
 
 // detectUIScale reports the system UI scale, or 1.0 if it fails.
