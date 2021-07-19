@@ -709,7 +709,12 @@ func (w *x11Window) center(height, width int) {
 	screenWidth := C.XWidthOfScreen(screen)
 	screenHeight := C.XHeightOfScreen(screen)
 
-	x := screenWidth / 2 - C.int(width) / 2
+	widthFactor := 1
+	if screenWidth > 1980 {
+		widthFactor = 2
+	}
+
+	x := screenWidth / (2 * C.int(widthFactor)) - C.int(width) / 2
 	y := screenHeight / 2 - C.int(height) / 2
 	C.XMoveWindow(w.x, w.xw, x, y)
 }
